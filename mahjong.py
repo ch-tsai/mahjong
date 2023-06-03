@@ -19,7 +19,7 @@ from interactions import Button, ButtonStyle, ActionRow
 intents = discord.Intents().all()
 intents.members = True 
 client = discord.Client(intents=intents)
-bot = interactions.Client(token="MTA3NDM1NzUyNzEyODU4NDI0Mg.GyvATS.S0EhSbqMaOi6Ki5dGlUqICVXe18qgReV_xK3ac", 
+bot = interactions.Client(token="", 
                           default_scope=[883712814068416523,1011225863527858216, 1068488232473477271, 1112024781852790836])
 @bot.event
 async def on_ready():
